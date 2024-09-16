@@ -1,0 +1,7 @@
+/* Custom modal size for larger width */
+.modal-custom-size {
+    max-width: 90% !important;
+    /* Adjust this to your desired percentage */
+    width: 70% !important;
+    /* This makes the modal wider */
+}

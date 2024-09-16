@@ -1,0 +1,259 @@
+
+.overview-block-ptb{
+
+    background-color:#fff !important;
+
+    /* color: #FE1744; */
+}
+
+.goog-logo-link {
+    display: none !important;
+}
+
+.goog-te-gadget {
+    color: transparent !important;
+}
+
+/* Continuous rotation animation */
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Apply the rotation to the image */
+.banner-img-2 img {
+    animation: rotate 5s linear infinite;
+}
+
+
+
+/* Features  */
+
+iq-feature1 .left {
+    width: 76px;
+    height: 76px;
+    float: left;
+    margin-right: 20px;
+    text-align: center;
+    border: 1px solid #f9b707;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.iq-feature1 .left i {
+    color: #FE1744;
+    font-size: 30px;
+    background: #f3f3f3;
+    display: block;
+    margin: 7px 10px 10px 7px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.iq-feature1 .right {
+    display: table-cell;
+    margin-top: 10px;
+    vertical-align: top;
+}
+
+.iq-feature1 .right p {
+    margin-top: 0px;
+}
+
+.iq-feature1:hover .left,
+.iq-feature1:hover .left i {
+    border-color: #FE1744;
+}
+
+.iq-feature1:hover .left i {
+    background: #FE1744;
+    color: #ffffff;
+}
+
+.overview-block-ptb{
+
+    background: #000411 !important;
+}
+
+.iq-feature1 .brd {
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.right-side .iq-feature1 .left {
+    float: right;
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.right-side .iq-feature1 .right {
+    text-align: right;
+}
+
+/* Multi Color Icons */
+.iq-feature1 .left.big {
+    width: 89px;
+    height: 89px;
+}
+
+.iq-feature1 .left i.in-bg-1 {
+    background: #64c5ae;
+    color: #ffffff;
+    width: 74px;
+    height: 74px;
+    line-height: 74px;
+}
+
+.iq-feature1 .left i.in-bg-2 {
+    background: #f5c795;
+    color: #ffffff;
+    width: 74px;
+    height: 74px;
+    line-height: 74px;
+}
+
+.iq-feature1 .left i.in-bg-3 {
+    background: #b4aaec;
+    color: #ffffff;
+    width: 74px;
+    height: 74px;
+    line-height: 74px;
+}
+
+.iq-feature1 .left.in-brd-1,
+.iq-feature1 .left.in-brd-2,
+.iq-feature1 .left.in-brd-3 {
+    border: 1px solid #FE1744;
+}
+
+.iq-feature1:hover .left.in-brd-1 {
+    border: 1px solid #64c5ae;
+}
+
+.iq-feature1:hover .left.in-brd-2 {
+    border: 1px solid #f5c795;
+}
+
+.iq-feature1:hover .left.in-brd-3 {
+    border: 1px solid #b4aaec;
+}
+
+#join-us{
+    padding: 9px 25px;
+    border-radius: 25px;
+}
+
+.btn-txt:hover{
+    padding-right:4px;
+    transition: 0.50s ease-in-out;
+}
+
+  .heading-title.left {
+      text-align: left;
+  }
+
+.custom-card-body {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Fancy box */
+
+.iq-fancy-box {
+    background: #181a21;
+    padding: 0 20px 20px;
+    margin-bottom: 120px;
+    position: relative;
+}
+
+.iq-fancy-box .fancy-icon img {
+    width: 60%;
+    margin-top: -80px;
+}
+
+.iq-fancy-box .fancy-content h5 {
+    font-family: 'Comfortaa', cursive;
+    margin: 25px 0 25px;
+}
+
+/* Fancy box 2 */
+.fancy-box {
+    text-align: center;
+    border: 1px solid #f9b707;
+    border-radius: 10px;
+}
+
+.fancy-box .heading {
+    padding: 20px;
+    background: #f9b707;
+    border-radius: 10px 10px 0 0;
+}
+
+.fancy-box h5 {
+    margin: 20px 0;
+}
+
+.fancy-box h6 {
+    margin: 10px 0;
+}
+
+
+.prec h5 {
+    margin-bottom: 3px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    font-size: 1rem;
+    margin-top: 25px;
+    line-height: 1.8rem;
+    color: #e7e7e7;
+    letter-spacing: 2px;
+}
+
+.prec h5 span {
+    color: #e7e7e7;
+    display: block;
+    padding-top: 17px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.sprim {
+    border: 0;
+    border-radius: 0;
+    padding: 12px 30px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: .1s;
+    outline: 0;
+    box-shadow: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+@media(max-width:767px) {
+    .about-text{
+        margin-left:5px;
+        margin-right:5px;
+    }
+}
